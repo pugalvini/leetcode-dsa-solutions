@@ -9,12 +9,13 @@
 # Time Complexity: O(n) - We traverse the linked list once to push nodes onto the stack and once to reverse the list.
 # Space Complexity: O(n) - The stack stores all the nodes of the linked list.
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 from typing import Optional
+
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 
 class Solution:
